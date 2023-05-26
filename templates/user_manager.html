@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+	    .row{
+		display: block;
+		width: 330px;
+		height: 20px;
+	    }
+	   .sel,.user,.del{
+	       width: 60px;
+	       border: 1px solid black;
+	       margin: 0;
+	       display: block;
+	       float: left;
+	   } 
+	   .user{
+	       width: 200px;
+	   }
+	   .page{
+		text-decoration: underline;
+		margin-left: 10px;
+		color: blue;
+	    }
+	    .page:hover{
+		cursor: pointer;
+	    }
+        </style> 
+        <script>
+        function delete_user(name){
+            f = document.getElementById("main");
+            u = document.getElementById("d_un");
+	    f.action = "/user/del"
+            u.value = name;
+            f.submit();
+        }
+        function del_users(name){ 
+            f = document.getElementById("main");
+	    f.action = "/user/dels"
+	    f.submit()
+	}
+
+        function all_users(){
+            document.getElementById("select_none").checked = false;
+            objs = document.getElementsByName("users");
+            for(var i=0;i<objs.length;i++){
+                if (objs[i].type == "checkbox" && objs[i].disabled==false){
+                    objs[i].checked = true;      
+                }           
+            }
+        }
+
+        function none_users(){
+            document.getElementById("select_all").checked = false;
+            objs = document.getElementsByName("users");
+            for(var i=0;i<objs.length;i++){
+                if (objs[i].type == "checkbox" && objs[i].disabled==false){
+                    objs[i].checked = false;      
+                }           
+            }
+        }
+
+        function change_order(){
+            f = document.getElementById("main");
+	    f.action = "/user/search";
+            u = document.getElementById("user_order").value;
+	    if (u == "desc"){
+	    	document.getElementById("user_order").value = "asc"
+	    }
+	    else{
+	    	document.getElementById("user_order").value = "desc"
+            }
+	    f.submit();
+        }
+
+        function change_page(page){
+            f = document.getElementById("main");
+	    f.action = "/user/search";
+            p = document.getElementById("page");
+            p.value = page
+            f.submit()
+        }
+        </script>
+    <title>user_manager</title>
+    </head>
+    <body>
+        <form action="/user/add" method="POST">
+            username:<input name="username"/><br/>
+            password:<input name="password"/><br/>
+            <input type="submit" name="regist" value="regist"><br/>
+        </form>
+
+        <form id="main" method="POST">
+            <input id="d_un" name="d_un" type="hidden">
+            <input type="hidden" id="user_order" name="user_order" value="{{user_order}}">
+            <input type="hidden" id="page" name="page" value="0">
+            {{page_size}} ---- 
+            <select name="page_size">
+                {% for num in ("10", "15", "20") %}
+                <option value="{{num}}"
+                    {% if (page_size == num) %}
+                        selected
+                    {% endif %}
+                >
+                {{num}}/page
+                </option>
+                {% endfor %}
+            </select>
+            <input id="s_usr" name="s_usr" type="input" value="{{ s_user}}">
+            <input type="submit" value="search">
+            <input type="checkbox" onclick="all_users();" id="select_all">select all
+            <input type="checkbox" onclick="none_users();" id="select_none">select none
+            <input type="submit" onclick="del_users()" value="del selected!">   
+            <div class="row">
+                <span class="sel">select</span>
+                <span class="user" onclick="change_order()" >username({{user_order}})</span>
+                <span class="del">delete</span>
+            </div> 
+            {% for record in l %}
+            <div class="row">
+                <span class="sel">
+                    <input type="checkbox" value="{{ record[0] }}" name="users">
+                </span>
+                <span class="user">
+                    <a href="./prepareUpdate?username={{record[0]}}"> {{ record[0] }}</a>
+                </span>
+                <span class="del">
+                    <input type=button value="del" onclick="delete_user('{{record[0]}}')"/>
+                </span>
+            </div>
+            {% endfor %}
+        </form>
+        <div class="row">
+        {% for page in pages %}
+            <span class="page" onclick="change_page({{page}})"
+                {% if current_page == page %}
+                style="font-size:30px"
+                {% endif %}
+            >
+            {{page}}
+            </span>
+        {% endfor%}
+        </div>
+    </body>
+</html>

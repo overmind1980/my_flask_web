@@ -1,0 +1,531 @@
+ * Serving Flask app 'flaskweb'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3012
+ * Running on http://10.0.16.3:3012
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39cea5340>
+117.129.24.245 - - [26/May/2023 17:04:40] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39cea5490>
+117.129.24.245 - - [26/May/2023 17:04:41] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39cea57f0>
+117.129.24.245 - - [26/May/2023 17:05:18] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39ce6b340>
+117.129.24.245 - - [26/May/2023 17:05:24] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bd310>
+117.129.24.245 - - [26/May/2023 17:06:15] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bdd00>
+117.129.24.245 - - [26/May/2023 17:06:18] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39ef01d90>
+117.129.24.245 - - [26/May/2023 17:06:19] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bd550>
+117.129.24.245 - - [26/May/2023 17:06:21] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bd040>
+117.129.24.245 - - [26/May/2023 17:06:23] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c632a90>
+117.129.24.245 - - [26/May/2023 17:06:25] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c632ca0>
+117.129.24.245 - - [26/May/2023 17:06:27] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c632280>
+117.129.24.245 - - [26/May/2023 17:06:29] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c6320d0>
+117.129.24.245 - - [26/May/2023 17:06:30] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bd430>
+117.129.24.245 - - [26/May/2023 17:06:32] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c62a130>
+117.129.24.245 - - [26/May/2023 17:06:33] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c62a7c0>
+117.129.24.245 - - [26/May/2023 17:07:47] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c604df0>
+117.129.24.245 - - [26/May/2023 17:07:48] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c5bd160>
+117.129.24.245 - - [26/May/2023 17:07:50] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c604610>
+117.129.24.245 - - [26/May/2023 17:07:51] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c62a7c0>
+117.129.24.245 - - [26/May/2023 17:07:53] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fa39c62a2e0>
+117.129.24.245 - - [26/May/2023 17:10:20] "POST /user/search HTTP/1.1" 200 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+10 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 5
+0 ====
+15 -------------
+count==== 5
+0 ====
+15 -------------
+count==== 2
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+2 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+2 ====
+15 -------------
+count==== 202
+3 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+2 ====
+15 -------------
+count==== 202
+0 ====
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe597fb1310>
+117.129.24.245 - - [26/May/2023 17:19:42] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067f70>
+117.129.24.245 - - [26/May/2023 17:19:49] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067ee0>
+117.129.24.245 - - [26/May/2023 17:19:51] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067f10>
+117.129.24.245 - - [26/May/2023 17:19:52] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5967053a0>
+117.129.24.245 - - [26/May/2023 17:19:53] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596705ee0>
+117.129.24.245 - - [26/May/2023 17:19:54] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596705dc0>
+117.129.24.245 - - [26/May/2023 17:20:01] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596773850>
+117.129.24.245 - - [26/May/2023 17:20:44] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596773dc0>
+117.129.24.245 - - [26/May/2023 17:20:47] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596773100>
+117.129.24.245 - - [26/May/2023 17:20:49] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596772e20>
+117.129.24.245 - - [26/May/2023 17:20:50] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5967050a0>
+117.129.24.245 - - [26/May/2023 17:28:09] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5967733a0>
+117.129.24.245 - - [26/May/2023 17:28:13] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5967736d0>
+117.129.24.245 - - [26/May/2023 17:28:15] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596725160>
+117.129.24.245 - - [26/May/2023 17:28:16] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067d90>
+117.129.24.245 - - [26/May/2023 17:28:19] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596725a60>
+117.129.24.245 - - [26/May/2023 17:28:21] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067fd0>
+117.129.24.245 - - [26/May/2023 17:28:22] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596773a60>
+117.129.24.245 - - [26/May/2023 17:28:28] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6067d90>
+117.129.24.245 - - [26/May/2023 17:28:29] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596725a60>
+117.129.24.245 - - [26/May/2023 17:28:29] "POST /user/search HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:28:42] "[32mPOST /user/add HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 17:28:42] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596705880>
+117.129.24.245 - - [26/May/2023 17:28:42] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe596705c40>
+117.129.24.245 - - [26/May/2023 17:28:48] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6073a00>
+117.129.24.245 - - [26/May/2023 17:29:05] "[32mPOST /user/dels HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 17:29:05] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fe5a6073c10>
+117.129.24.245 - - [26/May/2023 17:29:05] "GET /user/ HTTP/1.1" 200 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+1 ====
+15 -------------
+count==== 202
+2 ====
+15 -------------
+count==== 202
+3 ====
+15 -------------
+count==== 202
+4 ====
+15 -------------
+count==== 202
+5 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+0 ====
+15 -------------
+count==== 202
+4 ====
+15 -------------
+count==== 202
+6 ====
+15 -------------
+count==== 202
+8 ====
+aaaaa
+20 -------------
+count==== 203
+0 ====
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f234432f8b0>
+117.129.24.245 - - [26/May/2023 17:32:32] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f2344b90d00>
+117.129.24.245 - - [26/May/2023 17:32:36] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f23442f1250>
+117.129.24.245 - - [26/May/2023 17:32:42] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f23442f13a0>
+117.129.24.245 - - [26/May/2023 17:32:43] "POST /user/search HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:32:46] "[35m[1mPOST /user/del HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 30, in del_user
+    page = int(request.form.get("page"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+117.129.24.245 - - [26/May/2023 17:32:46] "GET /user/del?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:32:46] "GET /user/del?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:32:46] "GET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:32:46] "GET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+114.132.203.138 - - [26/May/2023 17:41:22] "GET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f23442bdc10>
+117.129.24.245 - - [26/May/2023 17:41:24] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f23442bd340>
+117.129.24.245 - - [26/May/2023 17:41:32] "[35m[1mPOST /user/del HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 49, in del_user
+    return render_template("user_manager.html", l = records, s_user = username,user_order = user_order, pages=list(range(first_page, last_page)),current_page = page,page_size = page_size)
+NameError: name 'records' is not defined
+117.129.24.245 - - [26/May/2023 17:41:32] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:41:32] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:41:32] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+10 -------------
+count==== 186
+1 ====
+20 -------------
+count==== 186
+0 ====
+20 -------------
+count==== 186
+2 ====
+uname 
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f912d092d00>
+117.129.24.245 - - [26/May/2023 17:44:15] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f912f119be0>
+117.129.24.245 - - [26/May/2023 17:44:18] "[35m[1mPOST /user/del HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 50, in del_user
+    return render_template("user_manager.html", l = records, s_user = username,user_order = user_order, pages=list(range(first_page, last_page)),current_page = page,page_size = page_size)
+NameError: name 'records' is not defined
+117.129.24.245 - - [26/May/2023 17:44:18] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:44:18] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:44:18] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f912d092040>
+117.129.24.245 - - [26/May/2023 17:50:35] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f912d06c370>
+117.129.24.245 - - [26/May/2023 17:50:38] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f9117fffc70>
+117.129.24.245 - - [26/May/2023 17:50:40] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f9117f8ddf0>
+117.129.24.245 - - [26/May/2023 17:50:46] "[35m[1mPOST /user/del HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 50, in del_user
+    return render_template("user_manager.html", l = records, s_user = username,user_order = user_order, pages=list(range(first_page, last_page)),current_page = page,page_size = page_size)
+NameError: name 'records' is not defined
+117.129.24.245 - - [26/May/2023 17:50:46] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:50:46] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 17:50:46] "[36mGET /user/del?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+uname cd|qaimmhe
+sql========= DELETE FROM login WHERE username=%s
+10 -------------
+count==== 185
+1 ====
+10 -------------
+count==== 185
+0 ====
+uname cjmj{tmktq
+sql========= DELETE FROM login WHERE username=%s
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7ff0145eb730>
+117.129.24.245 - - [26/May/2023 17:52:21] "GET /user/ HTTP/1.1" 200 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f38146c8d00>
+117.129.24.245 - - [26/May/2023 17:55:54] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f38146bdd60>
+117.129.24.245 - - [26/May/2023 17:55:57] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f38146d4790>
+117.129.24.245 - - [26/May/2023 17:55:59] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f381469c4f0>
+117.129.24.245 - - [26/May/2023 17:56:07] "POST /user/search HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814666c70>
+117.129.24.245 - - [26/May/2023 17:56:09] "[32mPOST /user/del HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 17:56:09] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814666280>
+117.129.24.245 - - [26/May/2023 17:56:09] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814663160>
+117.129.24.245 - - [26/May/2023 17:56:13] "[32mPOST /user/del HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 17:56:13] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f38146665e0>
+117.129.24.245 - - [26/May/2023 17:56:14] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814666d90>
+117.129.24.245 - - [26/May/2023 17:56:23] "[32mPOST /user/dels HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 17:56:23] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814666ee0>
+117.129.24.245 - - [26/May/2023 17:56:23] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814656ee0>
+117.129.24.245 - - [26/May/2023 17:56:26] "[35m[1mGET /user/prepareUpdate?username=aaa HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 147, in prepare_update
+    return render_template("user_detail.html", user = user, password = password)
+  File "/usr/local/lib/python3.9/dist-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/usr/local/lib/python3.9/dist-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/usr/local/lib/python3.9/dist-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/usr/local/lib/python3.9/dist-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/usr/local/lib/python3.9/dist-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/usr/local/lib/python3.9/dist-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/usr/local/lib/python3.9/dist-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: user_detail.html
+117.129.24.245 - - [26/May/2023 17:56:26] "GET /user/prepareUpdate?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:56:26] "GET /user/prepareUpdate?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:56:26] "GET /user/prepareUpdate?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 17:56:26] "GET /user/prepareUpdate?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f38146563a0>
+117.129.24.245 - - [26/May/2023 17:58:28] "GET /user/prepareUpdate?username=aaa HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7f3814666d60>
+117.129.24.245 - - [26/May/2023 18:01:34] "GET /user/prepareUpdate?username=aaa HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 18:01:38] "[35m[1mPOST /update HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 151, in update
+    current_user = session["current_user"]
+  File "/usr/local/lib/python3.9/dist-packages/flask/sessions.py", line 79, in __getitem__
+    return super().__getitem__(key)
+KeyError: 'current_user'
+117.129.24.245 - - [26/May/2023 18:01:38] "GET /update?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 18:01:38] "GET /update?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 18:01:38] "GET /update?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+117.129.24.245 - - [26/May/2023 18:01:38] "[36mGET /update?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+10 -------------
+count==== 184
+0 ====
+15 -------------
+count==== 184
+0 ====
+15 -------------
+count==== 184
+0 ====
+uname=========== ctgycjxers
+sql========= DELETE FROM login WHERE username=%s
+uname=========== crlmgqdelr
+sql========= DELETE FROM login WHERE username=%s
+now in prepare updateaaa
+now in prepare updateaaa
+now in prepare updateaaa
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+117.129.24.245 - - [26/May/2023 18:02:04] "[35m[1mPOST /update HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.9/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/var/apps/o2020201023012/my_flask_web/user/user_manager.py", line 152, in update
+    if current_user != "admin":
+NameError: name 'current_user' is not defined
+117.129.24.245 - - [26/May/2023 18:02:04] "[36mGET /update?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 18:02:04] "[36mGET /update?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+117.129.24.245 - - [26/May/2023 18:02:04] "[36mGET /update?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fca742fa190>
+117.129.24.245 - - [26/May/2023 18:02:18] "[32mPOST /update HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 18:02:18] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fca763b90a0>
+117.129.24.245 - - [26/May/2023 18:02:18] "GET /user/ HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fca74317370>
+117.129.24.245 - - [26/May/2023 18:02:22] "GET /user/prepareUpdate?username=aaaaa HTTP/1.1" 200 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fca763b9bb0>
+117.129.24.245 - - [26/May/2023 18:02:24] "[32mPOST /update HTTP/1.1[0m" 302 -
+117.129.24.245 - - [26/May/2023 18:02:24] "[32mGET /user HTTP/1.1[0m" 308 -
+discarding closed connection: <psycopg.Connection [BAD] at 0x7fca74317c10>
+117.129.24.245 - - [26/May/2023 18:02:24] "GET /user/ HTTP/1.1" 200 -
+ * Detected change in '/var/apps/o2020201023012/my_flask_web/user/user_manager.py', reloading
+now in prepare updateaaaaa
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 953-125-545
